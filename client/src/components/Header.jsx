@@ -19,7 +19,7 @@ const Header = () => {
     const [openCartSection,setOpenCartSection] = useState(false)
 
     const user = useSelector((state) => state.user);
-    console.log('user', user);
+    // console.log('user', user);
     const [openUserMenu, setOpenUserMenu] = useState(false);
 
     const cartItem = useSelector(state => state.cartItem.cart)

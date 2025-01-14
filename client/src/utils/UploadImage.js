@@ -1,5 +1,5 @@
 import Axios from '../utils/Axios'
-import Api from '../common/Api'
+import Api from '../common/api'
 
 const uploadImage = async(image)=>{
     try {

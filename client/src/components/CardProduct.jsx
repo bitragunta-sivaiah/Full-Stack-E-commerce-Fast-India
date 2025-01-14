@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Axios from '../utils/Axios';
 import { valideURLConvert } from '../utils/valideURLConvert';
 import AxiosToastError from '../utils/AxiosToastError';
-import Api from '../common/Api';
+import Api from '../common/api';
 import toast from 'react-hot-toast';
 import { useGlobalContext } from '../provider/GlobalProvider'
 import AddToCartButton from './AddToCartButton';

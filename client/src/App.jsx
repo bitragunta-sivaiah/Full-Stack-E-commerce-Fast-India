@@ -72,7 +72,7 @@ const App = () => {
             const {data: responseData} = response;
             if(responseData.success){
                 dispatch(handleAddItemCart(responseData.data));
-                console.log(responseData.data);
+                // console.log(responseData.data);
             }
         } catch (error) {
             AxiosToastError(error);
