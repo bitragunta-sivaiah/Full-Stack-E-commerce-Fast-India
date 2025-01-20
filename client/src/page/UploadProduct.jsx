@@ -6,7 +6,7 @@ import { IoClose } from 'react-icons/io5';
 import { useSelector } from 'react-redux';
 import AddFieldComponent from '../components/AddFieldComponent';
 import Axios from '../utils/Axios';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import toast from 'react-hot-toast';
 import AxiosToastError from '../utils/AxiosToastError';
 import successAlert from '../utils/SuccessAlert';

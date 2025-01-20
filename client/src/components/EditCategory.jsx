@@ -4,7 +4,7 @@ import uploadImage from '../utils/UploadImage';
 import Axios from '../utils/Axios';
 import toast from 'react-hot-toast';
 import AxiosToastError from '../utils/AxiosToastError';
-import Api from '../common/api';
+import Api from '../Api/Api';
 
 const EditCategory = ({ close, fetchData, data: CategoryData }) => {
     const [data, setData] = useState({

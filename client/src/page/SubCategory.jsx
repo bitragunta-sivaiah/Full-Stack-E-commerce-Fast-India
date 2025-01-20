@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import UploadSubCategoryModel from '../components/UploadSubCategoryModel';
 import AxiosToastError from '../utils/AxiosToastError';
 import Axios from '../utils/Axios';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import toast from 'react-hot-toast';
 import DisplayTable from '../components/DisplayTable';
 import { createColumnHelper } from '@tanstack/react-table';

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Axios from '../utils/Axios';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import NoData from '../components/NoData';
 import toast from 'react-hot-toast';
 

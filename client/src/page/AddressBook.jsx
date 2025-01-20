@@ -9,7 +9,7 @@ import Axios from '../utils/Axios';
 import toast from 'react-hot-toast';
 import AxiosToastError from '../utils/AxiosToastError';
 import { useGlobalContext } from '../provider/GlobalProvider';
-import Api from '../common/api';
+import Api from '../Api/Api';
  
 
 const AddressBook = () => {

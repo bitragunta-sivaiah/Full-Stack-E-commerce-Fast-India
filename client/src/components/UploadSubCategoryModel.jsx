@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import Axios from '../utils/Axios';
  
 import AxiosToastError from '../utils/AxiosToastError';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import toast from 'react-hot-toast';
 
 const UploadSubCategoryModel = ({ close,fetchData }) => {

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Divider from './Divider';
 import Axios from '../utils/Axios';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import { logout } from '../store/useSlice';
 import toast from 'react-hot-toast';
 import AxiosToastError from '../utils/AxiosToastError';

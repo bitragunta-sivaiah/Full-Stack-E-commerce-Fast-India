@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import avatar from '../assets/user.png'
 import Axios from '../utils/Axios'
-import Api from '../common/api'
+import Api from '../Api/Api'
 import { updatedAvatar } from '../store/useSlice'
 
 const UserProfileAvatarEdit = ({ close }) => {

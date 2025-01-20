@@ -7,7 +7,7 @@ import CardProduct from '../components/CardProduct'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { useLocation } from 'react-router-dom'
 import noDataImage from '../assets/nothing here yet.webp'
-import Api from '../common/api'
+import Api from '../Api/Api'
 
 const SearchPage = () => {
   const [data,setData] = useState([])

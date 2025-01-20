@@ -6,7 +6,7 @@ import toast from 'react-hot-toast'
 import AxiosToastError from '../utils/AxiosToastError'
 import { IoClose } from "react-icons/io5";
 import { useGlobalContext } from '../provider/GlobalProvider'
-import Api from '../common/api'
+import Api from '../Api/Api'
 
 const EditAddressDetails = ({close, data}) => {
     const { register, handleSubmit,reset } = useForm({

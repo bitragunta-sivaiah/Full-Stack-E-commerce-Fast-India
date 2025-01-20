@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 import { pricewithDiscount } from "../utils/PriceWithDiscount";
 import { handleAddAddress } from "../store/addressSlice";
 import { setOrder } from "../store/orderSlice";
-import Api from "../common/api";
+import Api from "../Api/Api";
  
 
 export const GlobalContext = createContext(null)

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
 import Axios from '../utils/Axios';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import toast from 'react-hot-toast';
 import AxiosToastError from '../utils/AxiosToastError';
 import fetchUserDetails from '../utils/fetchUseDetails'; // Corrected import

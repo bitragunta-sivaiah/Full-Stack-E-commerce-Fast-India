@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useSelector } from 'react-redux';
 import AxiosToastError from '../utils/AxiosToastError';
 import Axios from '../utils/Axios';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import CardLoading from './CardLoading';
 import CardProduct from './CardProduct';
 

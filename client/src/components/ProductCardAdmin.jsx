@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import EditProductAdmin from './EditProductAdmin'
 import Axios from '../utils/Axios'
-import Api from '../common/api'
+import Api from '../Api/Api'
 import toast from 'react-hot-toast'
 import AxiosToastError from '../utils/AxiosToastError'
 import { IoClose } from 'react-icons/io5'

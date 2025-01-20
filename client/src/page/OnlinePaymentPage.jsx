@@ -4,7 +4,7 @@ import Axios from "../utils/Axios";
 // import Api from "../common/api";
 import toast from "react-hot-toast";
 import { setOrder } from "../store/orderSlice";
-import Api from "../common/Api";
+import Api from "../Api/Api";
 
 const OnlinePaymentPage = () => {
   const { cart, user } = useSelector((state) => state);

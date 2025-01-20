@@ -3,7 +3,7 @@ import UploadCategoryModel from '../components/UploadCategoryModel';
 import Loading from '../components/Loading';
 import NoData from '../components/NoData';
 import Axios from '../utils/Axios';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import EditCategory from '../components/EditCategory';
 import ConfirmBox from '../components/CofirmBox';
 import toast from 'react-hot-toast';

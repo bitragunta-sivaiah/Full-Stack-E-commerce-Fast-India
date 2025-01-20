@@ -4,7 +4,7 @@ import { IoClose } from 'react-icons/io5'
 import Axios from '../utils/Axios'
 import toast from 'react-hot-toast'
 import AxiosToastError from '../utils/AxiosToastError'
-import Api from '../common/api'
+import Api from '../Api/Api'
 import { useGlobalContext } from '../provider/GlobalProvider'
 const AddAddress = ({close}) => {
     const { register, handleSubmit,reset } = useForm()

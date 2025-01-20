@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Axios from '../utils/Axios';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import AxiosToastError from '../utils/AxiosToastError';
 import { Link, useParams } from 'react-router-dom';
 import Loading from '../components/Loading';

@@ -3,7 +3,7 @@ import avatar from '../assets/user.png';
 import { useDispatch, useSelector } from 'react-redux';
 import UserProfileAvatarEdit from '../components/UserProfileAvatarEdit';
 import { setUserDetails } from '../store/useSlice';
-import Api from '../common/api';
+import Api from '../Api/Api';
 import AxiosToastError from '../utils/AxiosToastError';
 import fetchUserDetails from '../utils/fetchUseDetails';
 import toast from 'react-hot-toast';

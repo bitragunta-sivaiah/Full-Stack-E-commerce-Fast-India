@@ -8,7 +8,7 @@ import fetchUserDetails from './utils/fetchUseDetails'; // Corrected import name
 import { setUserDetails } from './store/useSlice'; // Corrected import name
 import { useDispatch } from 'react-redux';
 import Axios from './utils/Axios';
-import Api from './common/Api';
+import Api from './Api/Api';
 import {  setAllCategory,setAllSubCategory,setLoadingCategory } from './store/productSlice';
 import AxiosToastError from './utils/AxiosToastError';
 import { handleAddItemCart } from './store/cartProduct'

@@ -10,7 +10,7 @@ import image1 from "../assets/minute_delivery.png";
 import image2 from "../assets/Best_Prices_Offers.png";
 import image3 from "../assets/Wide_Assortment.png";
 import { pricewithDiscount } from "../utils/PriceWithDiscount";
-import Api from "../common/api";
+import Api from "../Api/Api";
 import { LuTimer } from "react-icons/lu";
 import AddToCartButton from "../components/AddToCartButton";
 

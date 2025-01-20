@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import Axios from "../utils/Axios";
 import toast from "react-hot-toast";
 import AxiosToastError from "../utils/AxiosToastError";
-import Api from "../common/api";
+import Api from "../Api/Api";
 import { loadStripe } from "@stripe/stripe-js";
 
 const CheckoutPage = () => {
