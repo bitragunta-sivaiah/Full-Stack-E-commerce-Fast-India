@@ -1,4 +1,4 @@
-export const baseURL = "https://full-stack-e-commerce-fast-india-backend.onrender.com/";
+export const baseURL =  import.meta.env.VITE_API_URL
 
 
 
