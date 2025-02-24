@@ -1,5 +1,7 @@
 # 🎉 FashionFusion - Full-Stack E-Commerce Platform for Modern Fashion
 
+<img src='https://res.cloudinary.com/doxhavcdy/image/upload/v1740400690/Screenshot_2025-02-23_142258_bhwh6f.png' alt='homepage' />
+
 ## ✨ Tagline
 A Scalable MERN Stack Fashion Marketplace with Admin Control, Dynamic User Experience, and Seamless Transactions
 
